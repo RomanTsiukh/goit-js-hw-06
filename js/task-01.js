@@ -1,4 +1,3 @@
-// Вариант №1
 const ulCategories = document.querySelectorAll(`.item`);
 console.log(`Number of categories: ${ulCategories.length}`);
 
