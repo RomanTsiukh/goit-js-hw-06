@@ -15,7 +15,6 @@ buttonDecrementEl.addEventListener(`click`, () => {
 });
 
 buttonIncrementEl.addEventListener(`click`, () => {
-    // console.log(countNumber += 1)
     countNumber += 1
     counterValue.textContent = countNumber
 });
