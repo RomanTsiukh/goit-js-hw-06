@@ -10,10 +10,13 @@ const buttonIncrementEl = document.querySelector(`#counter`).lastElementChild;
 let countNumber = Number(counterValue.textContent);
 
 buttonDecrementEl.addEventListener(`click`, () => {
-    console.log(countNumber -= 1)
+    countNumber -= 1
+    counterValue.textContent = countNumber
 });
 
 buttonIncrementEl.addEventListener(`click`, () => {
-    console.log(countNumber += 1)
+    // console.log(countNumber += 1)
+    countNumber += 1
+    counterValue.textContent = countNumber
 });
 
